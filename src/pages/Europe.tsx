@@ -124,7 +124,7 @@ export function Europe() {
                   )
                 })}
               </Stack>
-              <Box paddingBottom={{ base: '6px', md: '10px' }}>
+              <Box paddingBottom={{ base: '6px', md: '0' }}>
                 <Tooltip
                   label="São mais de 100 cidades"
                   hasArrow

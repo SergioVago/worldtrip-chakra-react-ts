@@ -7,7 +7,8 @@ import 'swiper/css/pagination'
 import './ContainerSlider.css'
 
 import Europe from '../assets/Europe.png'
-import America from '../assets/America.jpg'
+import SouthAmerica from '../assets/SouthAmerica.jpg'
+import NorthAmerica from '../assets/NorthAmerica.jpg'
 import Africa from '../assets/Africa.jpg'
 import Oceania from '../assets/Oceania.jpg'
 import Asia from '../assets/Asia.jpg'
@@ -32,9 +33,14 @@ export function ContinentsSlider() {
           subText: 'O continente mais antigo.',
         },
         {
-          image: America,
-          continentName: 'América',
+          image: SouthAmerica,
+          continentName: 'América do Sul',
           subText: 'O paraíso.',
+        },
+        {
+          image: NorthAmerica,
+          continentName: 'América do Norte',
+          subText: 'É bonita, mas a do sul é melhor.',
         },
         {
           image: Africa,
